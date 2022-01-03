@@ -3,9 +3,7 @@
 		<a href="https://vercel.com/import/git?s=https://github.com/sozonome/swindi">
 			<img src="https://vercel.com/button" alt="Vercel deploy button" />
 		</a>
-		<a
-			href="https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/swindi"
-		>
+		<a href="https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/swindi">
 			<img src="https://www.netlify.com/img/deploy/button.svg" alt="Netlify deploy button" />
 		</a>
 	</div>
