@@ -1,38 +1,40 @@
-# create-svelte
+# swindi
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/sozonome/swindi) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/swindi)
 
-## Creating a project
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/sozonome/swindi)
 
-If you're seeing this, you've probably already done this step. Congrats!
+[WIP] This is a [Svelte Kit](https://kit.svelte.dev/) project bootstrapped with `create-svelte`, added with [**WindiCSS**](https://windicss.org) and [**TypeScript**](https://www.typescriptlang.org) setup.
+Start developing right away!
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+## 🔋⚡ Battery Packed template
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+- ✔️ toolings for linting, formatting, and conventions configured
 
-> Note: the `@next` is temporary
+  `eslint`, `prettier`, `husky`, `lint-staged`, and `standard-version`
 
-## Developing
+- 🔎 SEO optimization configured
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+  with `svelte-meta-tags`. you'll need to reconfigure or tinker with it to get it right according to your needs, but it's there if you need it.
 
-```bash
-npm run dev
+- 🎨 basic responsive layout configured
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+  don't need it? just remove it 😃
 
-## Building
+## Getting Started
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+You can either click `Use this template` button on this repository and clone the repo or directly from your terminal:
 
 ```bash
-npm run build
+npx degit sozonome/swindi <YOUR_APP_NAME>
 ```
 
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+Then, run the development server:
+
+```bash
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `src/routes/index.svelte`. The page auto-updates as you edit the file.

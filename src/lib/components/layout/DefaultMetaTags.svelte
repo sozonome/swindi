@@ -3,14 +3,14 @@
 </script>
 
 <MetaTags
-	title="sveltekit-uno"
-	description="Svelte Kit starter template with unocss setup"
-	canonical="https://sveltekit-uno.sznm.dev"
+	title="swindi"
+	description="Svelte Kit starter template with WindiCSS setup"
+	canonical="https://swindi.sznm.dev"
 	openGraph={{
-		url: 'https://sveltekit-uno.sznm.dev',
-		title: 'Svelte Kit + unocss',
-		description: 'Svelte Kit starter template with unocss setup',
-		site_name: 'sveltekit-uno'
+		url: 'https://swindi.sznm.dev',
+		title: 'Svelte Kit + WindiCSS',
+		description: 'Svelte Kit starter template with WindiCSS setup',
+		site_name: 'swindi'
 	}}
 	twitter={{
 		handle: '@sozonome',
