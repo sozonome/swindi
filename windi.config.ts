@@ -1,11 +1,20 @@
 import { defineConfig } from 'windicss/helpers';
+import aspectRatioPlugin from 'windicss/plugin/aspect-ratio';
+import formsPlugin from 'windicss/plugin/forms';
+import typographyPlugin from 'windicss/plugin/typography';
+
+import { shortcuts } from './src/lib/styles/shortcuts';
 
 export default defineConfig({
 	attributify: true,
-	shortcuts: {
-		layout: 'max-w-1000px mx-auto p-4'
-	},
+	darkMode: 'class',
+	shortcuts,
 	theme: {
-		fontFamily: ['Fira Sans']
-	}
+		extend: {
+			fontFamily: {
+				sans: ['Outfit', 'sans-serif']
+			}
+		},
+	},
+	plugins: [aspectRatioPlugin, formsPlugin, typographyPlugin()]
 });

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import 'virtual:windi.css';
-	import '@fontsource/fira-mono/latin.css';
+	import '@fontsource/outfit/latin.css';
 	import '$lib/styles/app.css';
 
 	import Layout from '$lib/components/layout/index.svelte';
