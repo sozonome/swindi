@@ -14,7 +14,7 @@ export default defineConfig({
 			fontFamily: {
 				sans: ['Outfit', 'sans-serif']
 			}
-		},
+		}
 	},
 	plugins: [aspectRatioPlugin, formsPlugin, typographyPlugin()]
 });
