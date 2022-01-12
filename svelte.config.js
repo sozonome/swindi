@@ -16,7 +16,7 @@ const config = {
 		vite: {
 			plugins: [WindiCSS()]
 		},
-		inlineStyleThreshold: 1024
+		inlineStyleThreshold: 25600
 	}
 };
 
