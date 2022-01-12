@@ -15,7 +15,8 @@ const config = {
 		target: '#svelte',
 		vite: {
 			plugins: [WindiCSS()]
-		}
+		},
+		inlineStyleThreshold: 1024
 	}
 };
 
