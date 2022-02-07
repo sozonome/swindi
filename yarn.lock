@@ -215,10 +215,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/outfit@^4.5.2":
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/@fontsource/outfit/-/outfit-4.5.2.tgz#cc7bad9d2d79bc1bcccb65d6b64f6dcf02782057"
-  integrity sha512-s/iG05VPc6y7QExCbYRbhWFlIKpI0h8s9lXJ9S0S04gdTJe02i1fu1dsEDrsDnYPRhqXUMiygPMSYWgfOguuDQ==
+"@fontsource/outfit@^4.5.3":
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/@fontsource/outfit/-/outfit-4.5.3.tgz#7f9abcbe5af0e969c4b3116f5bf9ff3f6726dff7"
+  integrity sha512-0B3iHQk5D3N2mLhV1FGyCFQPUOK7TpvyqiDGvUV9Rql/cYtV3TSGYcaVXxZ8TMgWWBVeE00kyTIjA7MhfIO7ZQ==
 
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
@@ -1952,10 +1952,10 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.2.4.tgz#eca284f75d2965079309dc0ad9255abb2ebc1632"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
 
-lint-staged@^12.3.2:
-  version "12.3.2"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-12.3.2.tgz#c87fe59dca475b7d1cb56863c5faa03c145e1446"
-  integrity sha512-gtw4Cbj01SuVSfAOXC6ivd/7VKHTj51yj5xV8TgktFmYNMsZzXuSd5/brqJEA93v63wL7R6iDlunMANOechC0A==
+lint-staged@^12.3.3:
+  version "12.3.3"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-12.3.3.tgz#0a465962fe53baa2b4b9da50801ead49a910e03b"
+  integrity sha512-OqcLsqcPOqzvsfkxjeBpZylgJ3SRG1RYqc9LxC6tkt6tNsq1bNVkAixBwX09f6CobcHswzqVOCBpFR1Fck0+ag==
   dependencies:
     cli-truncate "^3.1.0"
     colorette "^2.0.16"
@@ -2932,10 +2932,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-svelte-check@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-2.3.0.tgz#3969e3c0655427d79f6251c1f9c05896eb07cf59"
-  integrity sha512-SBKdJyUmxzPmJf/ZPqDSQOoa9JzOcgEpV7u3UaYcgVn7fA0veZ3FA5JgLU8KYtf84Gp6guBVcrC7XKLjJa5SXQ==
+svelte-check@^2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-2.4.2.tgz#2a9b575a1e501a4b453ae197028b1085eb05ee58"
+  integrity sha512-QUS3YXEfJf9RdNOPdztzxUxB2XCSNG+0AtkRuZwe/OvOXMv9WKqrmGOny0PW1DtflyWiGIVgYoUIqS/zlBMJFQ==
   dependencies:
     chokidar "^3.4.1"
     fast-glob "^3.2.7"
@@ -2983,10 +2983,10 @@ svelte-preprocess@^4.10.2:
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
 
-svelte@^3.46.3:
-  version "3.46.3"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.46.3.tgz#31202b0c795f276726d95b648b6dd413116257ac"
-  integrity sha512-mTOXvv74CVQqJHqoIZDprVfRKVVmYNadXP0VKnOEA54223kLGCr1nMrifS4Zx29qMt/xRB38Eq1D7dDH/fM8fQ==
+svelte@^3.46.4:
+  version "3.46.4"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.46.4.tgz#0c46bc4a3e20a2617a1b7dc43a722f9d6c084a38"
+  integrity sha512-qKJzw6DpA33CIa+C/rGp4AUdSfii0DOTCzj/2YpSKKayw5WGSS624Et9L1nU1k2OVRS9vaENQXp2CVZNU+xvIg==
 
 table@^6.0.9:
   version "6.7.5"
