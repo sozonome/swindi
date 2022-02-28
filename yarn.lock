@@ -2,12 +2,10 @@
 # yarn lockfile v1
 
 
-"@antfu/utils@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@antfu/utils/-/utils-0.4.0.tgz#df100ed9922d7359bf6c99083765b5207086b9a7"
-  integrity sha512-gqkpvjkgFUu+s3kP+Ly33OKpo5zvVY3FDFhv5BIb98SncS3KD6DNxPfNDjwHIoyXbz1leWo1j8DtRLZ1D2Jv+Q==
-  dependencies:
-    "@types/throttle-debounce" "^2.1.0"
+"@antfu/utils@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@antfu/utils/-/utils-0.5.0.tgz#b3169429997cb87850e543cb74660f9e2fed7efd"
+  integrity sha512-MrAQ/MrPSxbh1bBrmwJjORfJymw4IqSHFBXqvxaga3ZdDM+/zokYF8DjyJpSjY2QmpmgQrajDUBJOWrYeARfzA==
 
 "@babel/code-frame@7.12.11":
   version "7.12.11"
@@ -384,11 +382,6 @@
   dependencies:
     "@types/node" "*"
 
-"@types/throttle-debounce@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@types/throttle-debounce/-/throttle-debounce-2.1.0.tgz#1c3df624bfc4b62f992d3012b84c56d41eab3776"
-  integrity sha512-5eQEtSCoESnh2FsiLTxE121IiE60hnMqcb435fShf4bpLRjEu1Eoekht23y6zXS9Ts3l+Szu3TARnTsA0GkOkQ==
-
 "@typescript-eslint/eslint-plugin@^4.31.1":
   version "4.33.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.33.0.tgz#c24dc7c8069c7706bc40d99f6fa87edcb2005276"
@@ -459,27 +452,27 @@
     "@typescript-eslint/types" "4.33.0"
     eslint-visitor-keys "^2.0.0"
 
-"@windicss/config@1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@windicss/config/-/config-1.7.1.tgz#f0c432796bff75bad58c72f168329fbe34619025"
-  integrity sha512-bT4Ze8d1kTKbVdQZ7yal9vjhIfuYypco2gVTy4OXvg6eAHFNZaOB/Ai4FqdRKvbgOqChHGiC32r5J55hmq6tDw==
+"@windicss/config@1.8.1":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@windicss/config/-/config-1.8.1.tgz#698178d9ad609c1e45ae562a8e2a6a458bedf023"
+  integrity sha512-WwrUMa8dT1AXbUjzQUVVCEpCNQg6rvr6wTyLXX8tv5jf9zYyTmj10sl0f7i5tbsMeG66hd2TpDp2JCcQf9knTA==
   dependencies:
     debug "^4.3.3"
-    jiti "^1.12.9"
-    windicss "^3.4.3"
+    jiti "^1.13.0"
+    windicss "^3.5.0"
 
-"@windicss/plugin-utils@1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-1.7.1.tgz#f1d5ac3d0d437d88c93ee4ea575c41907537523d"
-  integrity sha512-VMBLZ11s5kQt1RIIwfB45xFswb+SI1cvI5mK07dUSlfpomG1d1bqnB57bioo/jFNZh2Rl8wVnEvLTl7iZ4r09Q==
+"@windicss/plugin-utils@1.8.1":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-1.8.1.tgz#ee14d668cc1bbd386cc96ab69a83c088428b37b6"
+  integrity sha512-bYJDw5cPBhUR8qlyL1g634xtGPF4ABOmtRfDrkL8nf9YAJkNowHao9lAMAJqHLd56Zp6BEoqib3smuwKSJKBnQ==
   dependencies:
-    "@antfu/utils" "^0.4.0"
-    "@windicss/config" "1.7.1"
+    "@antfu/utils" "^0.5.0"
+    "@windicss/config" "1.8.1"
     debug "^4.3.3"
     fast-glob "^3.2.11"
     magic-string "^0.25.7"
     micromatch "^4.0.4"
-    windicss "^3.4.3"
+    windicss "^3.5.0"
 
 JSONStream@^1.0.4:
   version "1.3.5"
@@ -1262,10 +1255,10 @@ eslint-config-prettier@^8.4.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.4.0.tgz#8e6d17c7436649e98c4c2189868562921ef563de"
   integrity sha512-CFotdUcMY18nGRo5KGsnNxpznzhkopOcOo0InID+sgQssPrzjvsyKZPvOgymTFeHrFuC3Tzdf2YndhXtULK9Iw==
 
-eslint-plugin-svelte3@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-svelte3/-/eslint-plugin-svelte3-3.4.0.tgz#0fe6cfcd42a53ff346082d47e7386be66bd8d90e"
-  integrity sha512-MIQUTuRv3o7LyQ+360qOc9mLT35j1I5YzHr04g/UDcvJTpg0X/kHWELY99ve869Rp/9wjqD7I26Aq5H8OH5RIg==
+eslint-plugin-svelte3@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-svelte3/-/eslint-plugin-svelte3-3.4.1.tgz#3618700333c8f8f12e28aec93bf18440d44a61fd"
+  integrity sha512-7p59WG8qV8L6wLdl4d/c3mdjkgVglQCdv5XOTk/iNPBKXuuV+Q0eFP5Wa6iJd/G2M1qR3BkLPEzaANOqKAZczw==
 
 eslint-scope@^5.1.1:
   version "5.1.1"
@@ -1835,10 +1828,10 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
 
-jiti@^1.12.9:
-  version "1.12.9"
-  resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.12.9.tgz#2ce45b265cfc8dc91ebd70a5204807cf915291bc"
-  integrity sha512-TdcJywkQtcwLxogc4rSMAi479G2eDPzfW0fLySks7TPhgZZ4s/tM6stnzayIh3gS/db3zExWJyUx4cNWrwAmoQ==
+jiti@^1.13.0:
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.13.0.tgz#3cdfc4e651ca0cca4c62ed5e47747b5841d41a8e"
+  integrity sha512-/n9mNxZj/HDSrincJ6RP+L+yXbpnB8FybySBa+IjIaoH9FIxBbrbRT5XUbe8R7zuVM2AQqNMNDDqz0bzx3znOQ==
 
 js-tokens@^4.0.0:
   version "4.0.0"
@@ -2922,17 +2915,17 @@ svelte-hmr@^0.14.9:
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.9.tgz#35f277efc789e1a6230185717347cddb2f8e9833"
   integrity sha512-bKE9+4qb4sAnA+TKHiYurUl970rjA0XmlP9TEP7K/ncyWz3m81kA4HOgmlZK/7irGK7gzZlaPDI3cmf8fp/+tg==
 
-svelte-meta-tags@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/svelte-meta-tags/-/svelte-meta-tags-2.3.0.tgz#2f6e73c3fa238027dad1a369a8593dfe8b3e75c9"
-  integrity sha512-41sk5683xMxQ4yD5oisrFQwAY5wIYu5eFxLicLOYhejujMqD7vxNpNf4QUYyE3HZl/g5g50LnBltdae5AbSKgA==
+svelte-meta-tags@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/svelte-meta-tags/-/svelte-meta-tags-2.3.1.tgz#80647f5ff24de80508e31dfc1d54ebba7a91c09f"
+  integrity sha512-ad9P25GFQbldzyUQN82DsFH7yRPiwpKe3Pl3klZLBn6KJbH3wFmSlPX6k3kEmmbV51Ixhe6xQjtHGoiRwnzmIQ==
   dependencies:
     schema-dts "1.0.0"
 
-svelte-preprocess@^4.0.0, svelte-preprocess@^4.10.3:
-  version "4.10.3"
-  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.10.3.tgz#9aac89a8abc3889fa5740fb34f7dd74f3c578e13"
-  integrity sha512-ttw17lJfb/dx2ZJT9sesaXT5l7mPQ9Apx1H496Kli3Hkk7orIRGpOw6rCPkRNzr6ueVPqb4vzodS5x7sBFhKHw==
+svelte-preprocess@^4.0.0, svelte-preprocess@^4.10.4:
+  version "4.10.4"
+  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.10.4.tgz#308a410266bfc55b4e608da8d552b63580141260"
+  integrity sha512-fuwol0N4UoHsNQolLFbMqWivqcJ9N0vfWO9IuPAiX/5okfoGXURyJ6nECbuEIv0nU3M8Xe2I1ONNje2buk7l6A==
   dependencies:
     "@types/pug" "^2.0.4"
     "@types/sass" "^1.16.0"
@@ -3119,15 +3112,15 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-vite-plugin-windicss@^1.7.1:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-1.7.1.tgz#23fadfcb400bd0d7e991d0264f547f499bd57ddc"
-  integrity sha512-eEDeTPaeQAfe0widkTkm9X51BVpOE/yDIuFbULIKjXI7CfY1yjsPcxA6E3aZbLBYQcUmfhVUTYVaH5iAE5L8Hg==
+vite-plugin-windicss@^1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-1.8.1.tgz#3dd3400dd3509bce67cb4f5109f310a268433c45"
+  integrity sha512-c+900Dkc94kRuZPb6mz79B5XOS2PHNhadf7P9UjIRoimEE5HB7hj1f+A6qGHO4VejwU/MIvA6D5+Sz2lDKAaEQ==
   dependencies:
-    "@windicss/plugin-utils" "1.7.1"
+    "@windicss/plugin-utils" "1.8.1"
     debug "^4.3.3"
     kolorist "^1.5.1"
-    windicss "^3.4.3"
+    windicss "^3.5.0"
 
 vite@^2.7.2:
   version "2.7.10"
@@ -3148,10 +3141,10 @@ which@^2.0.1:
   dependencies:
     isexe "^2.0.0"
 
-windicss@^3.4.3:
-  version "3.4.3"
-  resolved "https://registry.yarnpkg.com/windicss/-/windicss-3.4.3.tgz#347d09fee8eb6b3fc5e6e68b435c76ccb24a748c"
-  integrity sha512-UnugThsvEgy8RsPm4/B5DYMCAqvZzD6yWU7Anh+f07t5RSJ8zvmAylGLbXrHPJEmCKzo2Mf+fOUvISH7IJqM3A==
+windicss@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/windicss/-/windicss-3.5.0.tgz#cb6896b136bc21d32d50a742352eece4ce0400d1"
+  integrity sha512-+UNYm2Zy4TM2uLiz6bqY2a69LavMqGbILFIwuGhPEJ/uqsPT3kCGSaWlhMw/weIaFOkm1K1cEzZ015Y8pp8N1A==
 
 word-wrap@^1.2.3:
   version "1.2.3"
