@@ -42,6 +42,6 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/outfit": "^4.5.4",
-		"svelte-meta-tags": "^2.3.4"
+		"svelte-meta-tags": "^2.4.0"
 	}
 }
