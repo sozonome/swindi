@@ -214,10 +214,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/outfit@^4.5.4":
-  version "4.5.4"
-  resolved "https://registry.yarnpkg.com/@fontsource/outfit/-/outfit-4.5.4.tgz#769da5a163363aa8c9927b5b5c7434d9d5b79133"
-  integrity sha512-cbBeFu6XwgGnDcPbdlOac3eQrStlo+HL7d6nGNTcTAXrWT4TCulkDQ+/7LgHoHC7Og4hGkeR/nUDDNrijU9UlA==
+"@fontsource/outfit@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/outfit/-/outfit-4.5.6.tgz#fc5a2038771cc6b6044b4ce100a37bf448091d58"
+  integrity sha512-tceqB6Whds0vw/wub1BVL0MNjyKK4XHvHYbumZHnZUFmr5RZg9I4YAbMfip8oPAGtPq8NiqQ3s3JHagp5h5xgQ==
 
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
@@ -2399,10 +2399,10 @@ prettier-plugin-svelte@^2.6.0:
   resolved "https://registry.yarnpkg.com/prettier-plugin-svelte/-/prettier-plugin-svelte-2.6.0.tgz#0e845b560b55cd1d951d6c50431b4949f8591746"
   integrity sha512-NPSRf6Y5rufRlBleok/pqg4+1FyGsL0zYhkYP6hnueeL1J/uCm3OfOZPsLX4zqD9VAdcXfyEL2PYqGv8ZoOSfA==
 
-prettier@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.0.tgz#12f8f504c4d8ddb76475f441337542fa799207d4"
-  integrity sha512-m2FgJibYrBGGgQXNzfd0PuDGShJgRavjUoRCw1mZERIWVSXF0iLzLm+aOqTAbLnC3n6JzUhAA8uZnFVghHJ86A==
+prettier@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.1.tgz#d472797e0d7461605c1609808e27b80c0f9cfe17"
+  integrity sha512-8UVbTBYGwN37Bs9LERmxCPjdvPxlEowx2urIL6urHzdb3SDq4B/Z6xLFCblrSnE4iKWcS6ziJ3aOYrc1kz/E2A==
 
 process-nextick-args@~2.0.0:
   version "2.0.1"
@@ -2921,10 +2921,10 @@ svelte-hmr@^0.14.9:
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.9.tgz#35f277efc789e1a6230185717347cddb2f8e9833"
   integrity sha512-bKE9+4qb4sAnA+TKHiYurUl970rjA0XmlP9TEP7K/ncyWz3m81kA4HOgmlZK/7irGK7gzZlaPDI3cmf8fp/+tg==
 
-svelte-meta-tags@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/svelte-meta-tags/-/svelte-meta-tags-2.5.0.tgz#3aa3bd63c0ef85660bc85f56e2cf720156e0bce4"
-  integrity sha512-UKUNa5I+KaRF1Iq3icWr0+XagTliFJzYoMVVf3zVvZvl0F8v7jdSTUnVwe4th8GKxsS/jsJVDgklZEBvFHEZCg==
+svelte-meta-tags@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/svelte-meta-tags/-/svelte-meta-tags-2.5.1.tgz#0ec8384ad09f22f692839270ee632d660dc80077"
+  integrity sha512-t2+2Ve0Rbmc5tZxUvaEv959PffkUsNk5afXSmgRbVbKiCAbsb2XhWJwUQdQDqeYlb3lRDLBywfwbjurdtb+NRQ==
   dependencies:
     schema-dts "1.1.0"
 
@@ -3078,10 +3078,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@*, typescript@^4.4.3, typescript@^4.6.2:
-  version "4.6.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.2.tgz#fe12d2727b708f4eef40f51598b3398baa9611d4"
-  integrity sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==
+typescript@*, typescript@^4.4.3, typescript@^4.6.3:
+  version "4.6.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.3.tgz#eefeafa6afdd31d725584c67a0eaba80f6fc6c6c"
+  integrity sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==
 
 uglify-js@^3.1.4:
   version "3.14.5"
