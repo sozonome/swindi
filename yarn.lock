@@ -2927,10 +2927,10 @@ svelte-hmr@^0.14.9:
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.9.tgz#35f277efc789e1a6230185717347cddb2f8e9833"
   integrity sha512-bKE9+4qb4sAnA+TKHiYurUl970rjA0XmlP9TEP7K/ncyWz3m81kA4HOgmlZK/7irGK7gzZlaPDI3cmf8fp/+tg==
 
-svelte-meta-tags@^2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/svelte-meta-tags/-/svelte-meta-tags-2.5.1.tgz#0ec8384ad09f22f692839270ee632d660dc80077"
-  integrity sha512-t2+2Ve0Rbmc5tZxUvaEv959PffkUsNk5afXSmgRbVbKiCAbsb2XhWJwUQdQDqeYlb3lRDLBywfwbjurdtb+NRQ==
+svelte-meta-tags@^2.5.5:
+  version "2.5.5"
+  resolved "https://registry.yarnpkg.com/svelte-meta-tags/-/svelte-meta-tags-2.5.5.tgz#c01f13669df5dc2b29cd00405a51048d5384373a"
+  integrity sha512-15eS7pxg6i4FKZ4j8tUToEPjmcFReRbpQdapZ18rUq+vccw53/xEK4rFqqrH+JjR+SNRlLhuVYWLCzt2b+cjkQ==
   dependencies:
     schema-dts "1.1.0"
 
