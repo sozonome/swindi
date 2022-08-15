@@ -41,7 +41,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/outfit": "^4.5.8",
-		"svelte-meta-tags": "^2.6.1"
+		"@fontsource/outfit": "^4.5.9",
+		"svelte-meta-tags": "^2.6.2"
 	}
 }
